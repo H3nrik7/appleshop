@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title>Apple</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-3 d-none d-lg-block">
+          <h5>Apple</h5>
+        </div>
+
+        <div class="col-3 d-none d-lg-block">
+          <h5>Phone number:********</h5>
+        </div>
+
+        <div class="col-6 col-lg-3 ">
+          <select class="custom-select">
+            <option selected>Eng</option>
+            <option value="1">Rus</option>
+            <option value="2">Arm</option>
+          </select>
+        </div>
+
+        <div class="col-6 col-lg-3 ">
+          <select class="custom-select">
+            <option selected>֏</option>
+            <option value="1">₽</option>
+            <option value="2">$</option>
+          </select>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-dark bg-light">
+        <div class="col-5">
+          <img src="data:image/png;base64,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" width="90px">
+        </div>
+        
+        <div class="dropdown col-4 col-lg-6">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Account
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#LoginModal">Login</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#RegisterModal">Register</a>
+            <a class="dropdown-item" href="#">My orders</a>
+            <a class="dropdown-item" href="#">Accout Setings</a>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-light" style="background-color: lightgrey">
+        
+        <div class="dropdown ">
+          <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            iPhone
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">11</a>
+            <a class="dropdown-item" href="#">11 Pro</a>
+            <a class="dropdown-item" href="#">11 Pro Max</a>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="dropdown">
+          <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            iMak
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">0.5TB</a>
+            <a class="dropdown-item" href="#">1TB</a>
+            <a class="dropdown-item" href="#">2TB</a>
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="dropdown">
+          <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mak book
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Air</a>
+            <a class="dropdown-item" href="#">Pro 13-inch</a>
+            <a class="dropdown-item" href="#">Pro 16-inch</a>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="dropdown">
+          <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            iPad
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">iPad</a>
+            <a class="dropdown-item" href="#">iPad Air</a>
+            <a class="dropdown-item" href="#">iPad Pro</a>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="dropdown">
+          <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            iWatch
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Series 5</a>
+            <a class="dropdown-item" href="#">Series 4</a>
+            <a class="dropdown-item" href="#">Series 3</a>
+          </div>
+        </div>
+
+        
+        
+        
+        
+        <div class="dropdown">
+          <button class="btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Airpods
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Airpods</a>
+            <a class="dropdown-item" href="#">Airpods Pro</a>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </header>
+<br>
+  
+  <div class="container">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHsoZXZ1EJCqUH-nxuT0nUBmDvkSyTPm-71w&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8Sg1q-w1RHCPDMCyH6NprWjCHWpNn7sB4Ug&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIu987XXGM-I39WjjDQM_RVq3P-wYS6yY6ww&usqp=CAU" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+  <div class="d-flex">
+    <div class="card col-lg-4">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQle0qR9inVGMTZvcUcesKo7NiPMZFwmp-UGQ&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">IPhone 11</h5>
+    <p class="card-text">In announcing its new 2020 iPad Pro range, Apple made it clear what the headline change was: a “Breakthrough LiDAR Scanner” which can measure the distance to surrounding objects up to five metres away. It works both indoors and outdoors and operates “at the photon level at nano-second speeds” to 3D map the environment and “unleash scenarios never before possible.”</p>
+    <a href="#" class="btn btn-primary">Buy now</a>
+  </div>
+</div>
+<div class="card col-lg-4">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTO8sBe_FZPSrxlotJsfPVB2ltcJ0JoJ4wUqg&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Macbook</h5>
+    <p class="card-text">The MacBook is a line of Macintosh notebook computers designed, manufactured and sold by Apple Inc. from May 2006 to February 2012. A new line of computers by the same name was released in 2015, serving the same purpose as an entry-level laptop. It replaced the iBook series and 12-inch PowerBook series of notebooks as a part of Apple's transition from PowerPC to Intel processors. Positioned as the low end of the MacBook family, below the premium ultra-portable MacBook Air and the powerful MacBook Pro,[1] the MacBook was aimed at the consumer and education markets.[2] It was the best-selling Macintosh ever. For five months in 2008, it was the best-selling laptop of any brand in US retail stores.[3] Collectively, the MacBook brand is the "world's top-selling line of premium laptops."[4]</p>
+    <a href="#" class="btn btn-primary">Buy now</a>
+  </div>
+</div>
+<div class="card col-lg-4">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2JXefvsUVeKGQv8Y6ds2lTy8LIWBCk8Qqew&usqp=CAU" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">iPhone X</h5>
+    <p class="card-text">The iPhone X (Roman numeral "X" pronounced "ten")[9][10] is a smartphone designed, developed, and marketed by Apple Inc. It is the eleventh generation of the iPhone and was announced on September 12, 2017, alongside the iPhone 8 and iPhone 8 Plus, at the Steve Jobs Theater in the Apple Park campus. It was available to pre-order on October 27, 2017 and was released on November 3, 2017.</p>
+    <a href="#" class="btn btn-primary">By now</a>
+  </div>
+</div>
+  </div>
+
+<div class="alert alert-success w-100" role="alert">
+  <h4 class="alert-heading">Attention!</h4>
+  <p>Buy 2 iPhone SE and get iWatch FREE!!!</p>
+</div>
+
+      <div class="card col-lg-6">
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANEA8NDQ8NDQ0NDg8NDQ0ODQ8ODg0NFRIWFhURFhMYHSggGBolHRUTIT0hJSkrLi4uFyA2OTMtNygvLisBCgoKDQ0NDg0NDisZFRkrKysrKysrKysrKy0rKysrKystKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEBAAMBAQEAAAAAAAAAAAAAAwEEBQIGB//EADkQAAIBAgMEBwYFAwUAAAAAAAABAgMRBBIxIUFRcQUyYXKBkbEGFCJTYpITocHh8EJDUiMzorLC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD9xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGG7anh1oreBQEPe4cV5ox75D/JeaA2Aa/vkOK80PfIcV5oDYBr++Q4rzQ98hxXmgNgGv75D/ACXmjPvcOK80BcEliIvee4zT0YHoAAAAAAAAAAAAAAAAAAAAAIV8Qo7FteniesRUyr+aGnnjBZ6jUb8dy4Io95JS2yduxa+ZlUI8E+e31OfV6ZjpBN9r2GtPHynvaXBbCjsSlCOuWPkSljKa7eUTkJntIDprGQe5rwReLTV1Zo5UIm5hHZ23NAbdjXnioLi+SPWKl8PN28DQnEDcWNp701zRWFWEtHF9mhyJI8N2A7joxf8ASvIw6Nuq2ux7UcaGMlDST5bi9Ppi3WV+1bGB1KWIaeWS/fkzbTvtRzaOLp1laL28Hskn2GxhajTyvl48SDbABAAAAAAAAAAAAAAAABpYp3kl2pfqcbG3q1Gtrt8MUdev11zfoecHRirz1blJX5Nq35FGjhehlrU+1Oy8WdOlhIR2RjFcl+pW4uUTnh09yfgfO9I9KYahiYYOcpUq9WCnTzwlGlUTbVozexvY9i0Pp7nF9rfZ6n0nh3RlaFWDz4etvpVFo7620/J7gMwe42cNrfsOT0NhcXSw8I478N4ineEp0pOUakF1Z6Kza3HWw2l+IRXEbY8mac2bcndNGnCDk3ZXavZPRvcgOZ0n0xh8I6ccROWetJQpUacHUq1G3ZWgtr1R9HRwkY7kj5j2X9l60MTU6S6SdOeLm2qFODc4YaluSbS+K3Di/D7C4VKWHi9jSfNJmjiuiIS2xWR9mnkdK5i4HzU8LKi9uxrapLRnYpVM2Se+UdvNfxmzWpqacXvNOhGygtdsrctoHWTvtMnmnouSPRkAAAAAAAAAAAAAAAAaeNj/AFLmua/YjhpfDznUf/ORv1YZlbfu5nMTyq3CU/8Asyjm+03tbheilTeLlNfjOWSNOGeWWNs0muCzLt2nZpYiM4xnBqUJxUoyWkotXT8jg+0Ps/hOklTWNoxrKjJyp3nKDje2aN4tNxdldaOyOgqiikllikkklsSS0SRUdFVD3GZyveO1FqeICt6raSaNG+XZwNiNU1MXKz5gUzmzhYJXfF3OZCd2lxZ0s9kkBdyPDqGtUrmtPEdqA6P4hwantjg445dFucvem4xdof6cakoqUYOXFprzRuxr9qObL2ewcsYuknQg8bFJKtmltajlUnC+VyS2Zmr2SCPolLaa+DWbL2LL4t3f6CNTabWAp2im+GwitsAEAAAAAAAAAAAAAAAAGupuV090mtnMyqa7fM8U9Zd6XqWjp4lEKisSlJ8S1XUhIozm7bMw5fUTZgIpf6hf6iYApf6hf6iYApf6j0pfURMoCmYpEjEtAKuqa7fM86bUVRKRBWjK8U3qz2Tw/VRQgAAAAAAAAAAAAAAAA1aesu9L1ZaOniRp6y70vVlo6eJRGrqQkXrakJFE2YMswEAAABgyAMowEB7iWgRiWgFbSJS0KolIgph+rHkUJ4fqx5FCAAAAAAAAAAAAAAAADVhrLvS9WWjp4kYay70vUtHTxKI1tSEi9bUhIomzBlmAgYMmABkwAMhAID3EtAjEtAK2kSloVRKWhBTD9WPIoTw/VjyKEAAAAAAAAAAAAAAAAGrDWXel6lo6eJGGsu9L1LR08SiNbUhIvW1NeRR4ZgyzARgAAAABkIwZQHuJaBGJaAVtIlLQqiMtCCuH6seRQnh+rHkUIAAAAAAAAAAAAAAAANWGsu9L1LR08SENZd5+peOniURramvI2K2pryKJswZZgIAGAMgwZAGUYMoD3ErAlErAK2kSnoVRKehBXD9WPJFCeH6seSKEAAAAAAAAAAAAAAAAGpHrS7zLQ08SM9k5dtn+X7FIPUonW1NeResa8mUeGYDZi4RkHm4uB6B5uLgejKPFzKYFYloGvFl6bCttEZ6FL7CNZ7GBs0OrHur0PZiKskuCSMmQAAAAAAAAAAAAAAABrYtWtPh8L5bv52niM95tyimmntT2M5tZOk7PbF9WX6PtLgpVka8mJVCUplRlsxck5mM4Fbi5HOM4Fri5HOM4FrmUyOcypgbEWXpyNOMy0ZgbrmeYLPJLcvifhoayqNvLHbJ6I6OHo5Fxk9snxZFVABAAAAAAAAAAAAAAAAAMSipJppNPVPamZAHMxHRe+lPL9MtsfPVfmaFXBYiP9tT7YTj/AOrH0QFHy0qVda0angk/RnnJW+TW+xn1YLR8nkrfJrfYxkrfJrfYz6wCj5PJW+TW+xjJW+TW+xn1gFHymSt8mt9jMqnX+TV+2x9UBR81TwuIf9mS7ZTgv1ubtDouo/8AcnGK4QvJ+b0OwBRLD4eNNWircW9rfNlQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Airpods</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+      <div class="card col-lg-6">
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDw8PDxIWEBAVDw8PDxAPEBUPEBAPFRUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNyotLisBCgoKDQ0OFRAPFy0dFR0uKys3LSsrKy0rNysrKzIrKzctLSstMis3LSsrLS0wNSs3KystKy0tNys4Nys3Ny4tLf/AABEIAM0A9gMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIDBAUIBgf/xABIEAABAwEDBQsKBAQGAgMAAAABAAIDEQQFEhMhMVGTFCIyQVNhcZGx0dIGF1JUcoGCkqHBFRZCsiMkYtMzg6LCw/Bz4QdDY//EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAIREBAAICAgIDAQEAAAAAAAAAAAERAhIDMSFREyIyYUH/2gAMAwEAAhEDEQA/APqt++V93WF2C12qOF9AcmXYpKHQSxtSBz0WV50rk9eZs5fAuXr6t77TabRaJSS+SaSRxJrnLiadA0DmCpoOrfOlcnrzNnL4EedK5PXmbOXwLlJCDq3zpXJ68zZy+BHnSuT15mzl8C5SQg6t86VyevM2cvgR50rk9eZs5fAuUkIOrfOlcnrzNnL4EedK5PXmbOXwLlJCDq3zpXJ68zZy+BHnSuT15mzl8C5SQg6t86VyevM2cvgR50rk9eZs5fAuUkIOrfOlcnrzNnL4EedK5PXmbOXwLlJKTmApSlanX0oOrPOlcnrzNnL4EedK5PXmbOXwLlJCDq3zpXJ68zZy+BHnSuT15mzl8C5SQg6t86VyevM2cvgR50rk9eZs5fAuUkIOrfOlcnrzNnL4EedK5PXmbOXwLlJCDq3zpXJ68zZy+BHnSuT15mzl8C5SQg6t86VyevM2cvgR50rk9eZs5fAuUkIOrfOlcnrzNnL4ED/5SuT15mzl8C5SQg7Pue+rLbGGSyTxzsBo4xPDsJ00cBnaeYoXKHkX5TWi7p5JbM6hfEY3A8EjE0gkaxT6lCDBk4Tvad2rQsRbknNMbHlxZR7w4vjwOJowhwADq0NQcwFKLPk4Tvad2rQsQ/ht+LtK3xxEz5ZymoXLRaI3lpFls8ZDi45Ns1H6czg+Vww560aBxcWZQvLC2RohibicXBzRIXxCrThjLnkYd7TfBx3xz6lwowrtpj6Y2k5z4y7FueEb1zSxomwGv6s8tQ4cVCBzFDJIw0NNnhcQ3DjImDyfSJbKBi0cVM2jTVuFGFX48U2kj2sLGNyUbS3/AOxoflH5qb+ry08RzNGjprFuduoKfClwppj6NpV9zt1BLudvohThqXCmmPo2lX3O30Qk3O3UOpWsCMCvx4ptKtudvohG52+iFaDEuBPjx9G0qu5m+iEx0DdQV3AmGNScI9LtKqIG+iEZBvohWAxPDE+ODaVTIN1BBgbqCtmMppYnxx6NpVhA30Ql3O3UFZDE7CmmPo2lV3M30QjczdQVrAkLVfjx9JtKrkGaggQtHENecVCsGNNLFNI9LtJ4mjrXIQk48dC14Zhw0wUa4b3j01rxpW2hgI/lrPQcRZMQdOn+LU6dfEK1UWFGFTSPS7SGYA0tyUbiWBmNwdiFHB2MUcBjzYa00HRxqnehBfjaxseIk4IgQxuYCjQ4k06SdKuYFTvAcH4vssZ4xELjM2hsfC+E9oSpLHwvhPaEq4uiKThO9p3atW72/wAJvxfuKypOE72ndq27rZ/BZ8X7iuvF+mOTo7AlwKxk0uTXopxtWwJcCsCNOySpargS4FbySMklFqoYnYFZyaURpSWrCNBYreTTTErRanSqlbErTYE/JJRank0GNXMkjJqlqJhTTETxLQyaMmpRagI0piV7JJMmlFqOTS5JXDGjJpRakY00sV0xJphRbUSxMLVfMCaYFJgtQonBqtZFBhOpSltWyaz72bTB8f2WuYisy+hTJ/H/ALVjk/MtYdqVj4XwntCVJY+F8J7QlXldkUnCd7Tu1ejuZlYGdL/3Feck4Tvad2r1VwN/l4/j/e5deH9OfJ0nEaURK0GJwjXpcVURJ2TUz8yiybiqGU1Jwap47OeNTNs6CqI04RK4IU4RoimIU4Qq2WgZzm6U172gVOYazpPQEmYWImVbJKPEz0m/MAlmmL8zRQayody+882crO7Wixk9SMms987W1AcB0HuTBahxzU6MZP0CbmjTyaMms38UY3Q6SQ85wN6ySfoq1ovqR2Zu8H9Od3vcc/VRNzSW3kkZNZdjvsjNKMQ9JtA7q0H6Lbs0scorG4O1jQ4dIOcLUTDMxMIMmkyau5NLkkRRMKTJK8YkmSQUDEkMSvmIJpjQZ5i5kmTV8xppjRWeYVi+UjKZL/M/2r1BYvO+VraZD/N/2Lny/mWsP1DFsfC+E9oSpLHwvhPaEq8j0IpOE72ndq9j5NsrZo+l/wC9y8dJwne07tWvYJjkWNJqAXEAnMN8dA1rpxTUsZxcPXBorSorStK56a6alI2NeZifnxAkOrWtSHV111rSjvWRoAOF3OQanpoc69GzlODXyKc2FZ8d9DMHMrrLDToo096vsvCM8Th0toeqqu0JrKTJJREqsl4n9Dfe7P8AQf8AtV3Rzy5iTTVoHUpssYrc9qjZpdU6m5yqb7e48EYRr0uU8dygZ5HBvSc/Unl0EegF51nMFLlqMYU2YzoGf0jnKmFgPCkNOd5TJr1IzNo32dPWs2e1udU195WVaUloiZo356m9/Ys22Xg51QN6NTc1enX71TfMoHORSPlPHn6c/wBdKiJB5vqErgmkKWUY5nv6FGVKjTpRUQcpWTEEEGhGgg0IPMeJNdFqzqMgqo3rH5QSNoH0kH9W9f8ANx+8FbljvaCXMHYHejJRvUdB614QFOEisZJOMPpJiSGNeGsN8TQ0DHkD0TvmfKcw9y37F5UsNBMzCfTjzj3tJqOs9C1sxOMtkxJhjQL0sxbiyraUrx4vlpWvuVZ99wf1UqQThzUGh2mtD0V5lbSkxjTCxULTfef+G0EcRea1+Ed6qTXzKeDhZzgVP+qvYm0LrLXkAaKuIaK0q4gCuqpXlvK+VhMIa4OIyuLCa0rg4xm4ilme55xOcXHWTX3cw5ll3oOB8X2XLkyvGW8calXsfC+E9oSpLHwvhPaEq87qik4Tvad2rSu9hLGhoJOfQCeMrNk4Tvad2r2/kvYsVkicSAKyfvcFvj7ZyZkNik05m9JqeoK9FYddXfQd/wBVvtssbdJr0Zk4zsboA9+dd2WdZ7ud+ltOgdpVuO7gOEQPfVJNeKozWwlEamOGPixHnVS0XwdDd6NTcyyJ5/eqxcToUFye2OdpVR0/OkyJOlSx2I6kVWdIToTS0nStRl3HUrDLpeeJBh5JMLFvWm72Rf40gYdOHhPI9kZ6c5zKm6eEcFjnc7iGfQVSktlmIo3M7Ur7rb6LWt6BU/VV5JydJr0q0Wquhpx9WdAhKmdM7WUzdL/SPWpS2VlnJNBWvFTT7lA+lS1wzgkVHNmUrrfLSmNwHHQ4exVClhzodWdQOjKka6ikEldKgqpwcp3Rg6FC6NFSxzEcasCaun6ZlQzhOa9WJSl8cx9xzIqRp+qqtkUzJiO5XwnlJjWfebq4fi+yvVaebo7lRvNtMOevC5tSxnH1XGfKCx8L4T2hKksfC+E9oSrg6IpOE72ndq9l5O2giyxDnk/e5eNk4Tvad2r2fk1GDZYzzyfvct8fbOS66VxUZBVvAE7AF3YUCwpuQJWoyGugV6ApRC0aSB0nP9EGO2w1VqG7VfNoibx16BQdZUZvXiYyp6C49yB8F114qq2LJGzhkDpIqsqS2zP3pdT+kb4/K1Rva1gL5ThA4374k6g0cfNnQbG6YhnbnArU8FopzleevXylc4lln3jdBkHCPs10Dn06qaVmXneRl3ratj1E75/O4/YZunioUUEuUOckkkmpJNSTrJ4ykLyo6oLlbKPL00uTcSSqB1UhKaUhKigppCWqKoGkJqlqmkKKaCnB6SiRA4tBUZjTkIIyEApxRRA5rlBbzwfi+ykooLX+n3/ZZy/Mkdm2PhfCe0JUlj4XwntCVcW0UnCd7Tu1b9z3k9kLGANIGLSDXO4nWsCThO9p3ar9jO8Hv7St8fbOXT0Ud9kaY2H3vH3Vhl/f/mBztcK/Vq86Hpweu7D0f4u12lzh0txfdObPC7TMfkcPsV5wSJ7ZU8Hl6Rps/KN94c4/UDsRJbLOP14ubC+nUGgdZXnhMnCQK1CXLSnvmgwxMzf1AMb8jdPvKyLRK95q8kniroA1ADMB0KbE1NLglFqxCaVM6iYQsqhJSYk5zUwqNDEjEmlIgfiRVR1RVA8lJVMqiqCSqSqjxJcSCQORVR1QCgegptUVQIlqkQgVV7X+n3/ZTqC1/p9/2Wc+lg2x8L4T2hKksfC+E9oSri0ik4Tvad2q5ZjvB7+0qnJwne07tVqzHej39pW8O0lYBS1UdecdaXFzjrXVhKClqow7nHWlxDWOsIJA4oxL2Nmvi6/w+eKSKLdeRhyMojOVdIHDKASBm9NA7fFwriUT70u4PspLcoxrgZw7DR5z/obQtjBw1ZUkgdNdTFWmM3F9PKY0Y17R99WB1qikeIcWSkyphhbFZcoXtMYbFSlWsDxjIJ3zaklowrdd6XeJ7TI90EYAsz43SQ4mue3GJhC1sbizFVmYNANCdSRHi7ZnLzVPE40mJepsl5WFsNpY4x55LSyFxixSuic3+E4HDVtDnFSCKcSfeV43WbrZHCB+I5KEvfk3AZYFuUBkNAQQHHNXSBmzk8Y5JmZiunbWIjt5IlMK+n+VN9XE6W6zY2w4GWgbtiZZiyHc8mDGX1YGyYcOgVOc86beV+XE+8zLG2HcW4o2YXWSRsTbSyYVwwtYC4uiJFcNMwzqxlNeYZp8womkL6TDetzttdqdC6DIukY9otdlJhNmMYxxQswEsIfiPBaXAgCoCoXbedz7ntbJmYHndLrMXMM0zgS4wtEorkyG5NtKtBIcSc+e4zMzMTFJnOtV5v08IR09SSi93ed73O67wIYsFuYLMScnQWhwc3Kgvw70EB1anVStTS95WWq5ppLJDZJ4YY2utBnlhsxiaQW4oq4W8Tm5Pj4RdTXmM5n/ABcft/HzWh/6EUXuZbZYY7dAbObJNC6IRSC0skks0dHf4jg/DWQsa0VpnNSc7yUvk/fN3/zbrXHCx73FzGxxF0DBhG9jaXHeYg6rNJDhTggLW31trix3yqfrH9eFof8AoQB/2i+iXfetzC7J2SMaLVS1Bgc3FaHPeZNzlsuTdhDBkgaPA/xCQ7NigtN9XYbPZWsjYHsls5dijDiWiRplElBV7cDXAgk48R5qaiLiWMpqYiPLwVDq+iCCvVX3eVlfG0Q5MPE2IlkTY3FmTcDvmsbvC4ghlTQjMG6Fatdtuo2VwYaWnczGtIZM3+YwtqSeAc+LOcxzJj5j0zllrXiZv08XVC1bynjdHRhaSaE4c3omnXXqWTRSGy1SpqcEAobV+n3/AGUygtXF7/ss5dLBLHwvhPaEqSx8L4T2hKuTSGQ753tO7U2q6JNhhqf4UeyZ3I3DDyUeyZ3K0OdqhFQuidww8lHsmdyTcMPJR7JnclDneoRULoncMPJR7JncjcMPJR7JnclDnbMioXRYsEPJR7JnclFgh5KPZM7koc51CKhdHCwQ8lHsmdycLBByMeyZ3JQ5vzIqF0mLBByMeyZ3Jwu+DkY9kzuShzVUIqF0wLvg5GPZM7k8XfByMeyZ3JQ5kqEVC6dF3wcjHsmdyjyNlywgyUZlMZmwiBppEHYcTjho0E5hXTQ00GihzNUIqF1ELug5GLZM7k8XdByMWxZ3JQ5aqEVXU4u6z8jFsWdyeLts/IRbFnclDlWoRULqwXbZ+Qi2LO5OF22fkItizuQco1CKhdYC7bPyEWxZ3Jwuyz8hFsWdyg5NqEVC60F2WfkItizuThdln5CLYs7kHJNQioXW/wCGWfkItizuS/hln5CLYs7kHI9Qiq66F2WfkItizuR+GWfkItizuQcl2Rwxaf0ntCF1s27LPyEWxZ3JEHlTpQtG8bnmjkcAxzmVJY5jS4FvFWmgqruOXk37N3cqiuhT7il5J+zd3I3FLyb9m7uVEKFPuKXk37N3cjccvJv2bu5BEEoUoscvJv2bu5OFjl5N+zd3IIgnhSCxy8m/5HdycLJLyb/kd3IIwnhPFkl5N/yO7k8WWTk3/I7uQMCcFHK4MOF5DDStHnCaa6FILTH6bfnb3oK3lGZhYrWbPUTCzymIt4WINPB/q1c9F8Q8jb6l/ELEJ5p5It0NGBs0jt++obvQ7OMRFQNIrpX3sWqPlG/O3vVeKz2NrmuayBrmuc9rmtia5r3VxOBGcE1NTx1UGmE4KuLVHyjPnb3pwtcXKM+dveqLITgm2ffgmPfgGhLN+AdRophA/wBF3ylQIE4JRC/0XfKU4Qv9F3ylAgTglEL/AEXfKU4Qu9E/KUCBOCURO9E/KU7JO9E9RQIlS5J3onqKdk3eieooGpU7Ju1HqKMm7UeooEalVizWYnO4UHPpqhFaCEIUAhCEAhCEAhCEAhCEAhCEHhPKuyZS1vJGhrG/Sv3WR+FjUvY3hZsUr3U4+wAfZV9xcyqPLfhY1I/CxqXqdxcyNxcyDy34WNSPwsal6ncXMjcXMgf5EQ5NkzdG+Y7rBH2Xplk3JDgL+cN+le9ayihCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBNe4AEk0AzknQAmWiNzmkMeY3cTgA6nuKzjd1pOmdjud1ndX6ShB5d/lxvj/CNKmlRQ0qj88DkluT+Tb3mrpI6/wDgkH/MofymeUZsZP7yDK/PA5L6I/PA5P6LV/KR5Vmxk/vI/KR5Vmxk/uoMr88N5P6Jfzu3k/otT8pHlWbGT+8lHkmeUZsZP7yCG4vKoTztiLMIcHAOpmBpUVPuovWrBs9wyR8GWMdMEh/5lZbYLTUfzDWjjEcFD/re4fRBqoSBKgEIQgEIQgEIQgEIQgEIQg//2Q==" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">iMac</h5>
+    <p class="card-text">iMac (Retina 5K, 27-inch, 2019)
+Model Identifier: iMac19,1
+Part Numbers: MRQYxx/A, MRR0xx/A, MRR1xx/A
+Tech Specs: iMac (Retina 5K, 27-inch, 2019)</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+    </div>   
+  </div>
+
+
+  <footer class="container">
+      <div class = "row">
+        <div class = "col-12 col-lg-3 p-3 mb-2 text-center" style="background-color:lightgrey"><a href="" class = " text-dark">CONTACT US</a></div>
+        <div class = "col-12 col-lg-3 p-3 mb-2 text-white text-center" style="background-color:lightgrey"><a href="" class = " text-dark">LIVE CHAT</a></div>
+        <div class = "col-12 col-lg-3 p-3 mb-2 text-white text-center" style="background-color:lightgrey"><a href="" class = " text-dark">SHIPPING</a></div>
+        <div class = "col-12 col-lg-3 p-3 mb-2 text-white text-center" style="background-color:lightgrey"><a href="" class = " text-dark">TERMS & CONDITIONS</a></div>
+      </div>
+      <div class = "row ">
+        <div class = "col-lg d-none d-lg-block"><b>LINK GROUP 1</b>
+        <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+        </div>
+        <div class = "col-lg d-none d-lg-block"><b>LINK GROUP 2</b>
+        <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a></div>
+        <div class = "col-lg d-none d-lg-block"><b>LINK GROUP 3</b>
+        <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a></div>
+        <div class = "col-lg d-none d-lg-block"><b>LINK GROUP 4</b>
+        <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a></div>
+        <div class = "col-lg d-none d-lg-block"><b>LINK GROUP 5</b>
+        <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">Link</a>
+          <br><a href="tumo.org" class="text-dark">LInk</a></div>
+      </div>
+      <div class = "row p-3 mb-2 bg-secondary text-white">
+        <div class = "col-lg-2 d-none d-lg-block">Find us on:</div>
+           <nav class="row navbar navbar-secondary bg-secondary">
+            <div class="d-flex align-items-baseline mx-3">
+             <img src="https://image.flaticon.com/icons/svg/889/889102.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/1384/1384063.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/2965/2965363.svg" class="px-1" width="30px">
+             <img src="https://image.flaticon.com/icons/svg/732/732200.svg" class="px-1" width="30px">
+           </div>
+           <h5 style="text-align">© Apple</h5>
+         </nav> 
+        </footer>
+      
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
